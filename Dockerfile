@@ -1,6 +1,5 @@
-FROM python:3
+FROM python:stretch
 WORKDIR /usr/src/app
-RUN apt-get install -y vim
 RUN pip install pandas
 RUN pip install sqlalchemy
 RUN pip install requests
