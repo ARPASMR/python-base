@@ -4,3 +4,9 @@ RUN pip install pandas
 RUN pip install sqlalchemy
 RUN pip install requests
 RUN pip install pg8000
+RUN pip install geopandas                
+RUN pip install shapely
+RUN pip install mpl_toolkits
+RUN pip install cartopy
+RUN pip install matplotlib
+RUN pip install schedule
