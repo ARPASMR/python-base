@@ -9,4 +9,5 @@ RUN pip install shapely
 RUN pip install matplotlib
 RUN pip install schedule
 RUN pip install Cython
+RUN pip install pyproj
 RUN pip install cartopy
