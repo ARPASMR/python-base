@@ -1,6 +1,7 @@
 FROM continuumio/anaconda
 WORKDIR /usr/src/app
 RUN conda install -y cartopy
+RUN conda install mysql-python
 RUN pip install pandas
 RUN pip install sqlalchemy
 RUN pip install requests
