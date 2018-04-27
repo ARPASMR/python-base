@@ -1,5 +1,6 @@
 FROM python:stretch
 WORKDIR /usr/src/app
+RUN apt-get install -y proj-bin
 RUN pip install pandas
 RUN pip install sqlalchemy
 RUN pip install requests
