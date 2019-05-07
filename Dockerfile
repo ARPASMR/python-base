@@ -1,5 +1,5 @@
 FROM python:stretch
-RUN apt-get install -y vim
+RUN apt-get install -y vim-nox
 WORKDIR /usr/src/app
 RUN pip install pandas
 RUN pip install sqlalchemy
