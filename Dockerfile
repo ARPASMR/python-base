@@ -1,4 +1,5 @@
 FROM python:stretch
+RUN apt-get install -y vim
 WORKDIR /usr/src/app
 RUN pip install pandas
 RUN pip install sqlalchemy
